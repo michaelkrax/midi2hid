@@ -31,7 +31,7 @@ opkg install alsa-utils-seq
 - Plug your MIDI controller into the USB port
 - Plug the YUN into the computer you want to control via HID using the micro-USB port
 - Re-power the YUN and wait for the white USB light to come on again
-- Connect via SSH (e.g. via Putty) and ``` python midi2hid ```
+- Connect via SSH (e.g. via Putty) and run ``` python midi2hid.py ```
 
 
 
