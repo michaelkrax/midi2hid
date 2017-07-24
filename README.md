@@ -6,7 +6,7 @@ This code turns a Launchpad S from Ableton into a USB HID device by emulating bo
 ## Preparing your Arduino Yun
 - Install latest OpenWRT (OpenWrt-Yun 1.5.3) via https://www.arduino.cc/en/Main/Software
 - Setup WLAN, insert SD Card and expand disk with the DiskSpaceExpander sketch (https://www.arduino.cc/en/Tutorial/ExpandingYunDiskSpace)
-- Restart and white until the white USB LED is on (indicates Linux boot completed)
+- Restart and wait until the white USB LED is on (indicates Linux boot completed)
 - Connect via SSH (e.g. via Putty)
 - Run the following commands
 ```
