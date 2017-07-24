@@ -3,7 +3,7 @@ Turn a MIDI controller into a mouse and keyboard (USB HID) using Arduino Yun
 
 This code turns a Launchpad S from Ableton into a USB HID device by emulating both a mouse and keyboard. The mappings can get used to play "WASD and mouse" based games (most first=person games on PC). The MIDI mappings could get easily modified to work with any MIDI controller and game.
 
-# Preparing your Arduino Yun
+## Preparing your Arduino Yun
 - Install latest OpenWRT (OpenWrt-Yun 1.5.3) via https://www.arduino.cc/en/Main/Software
 - Setup WLAN, insert SD Card and expand disk with the DiskSpaceExpander sketch (https://www.arduino.cc/en/Tutorial/ExpandingYunDiskSpace)
 - Restart and white until the white USB LED is on (indicates Linux boot completed)
